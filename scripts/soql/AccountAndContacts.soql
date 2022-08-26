@@ -1,0 +1,1 @@
+SELECT Id, Name, (SELECT Id,  Salutation, FirstName, LastName, Email FROM Contacts) FROM Account WHERE Name IN('The Bank of NewYork Mellon','Wells Fargo','Star ship')

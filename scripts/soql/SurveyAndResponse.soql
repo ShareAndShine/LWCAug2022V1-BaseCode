@@ -1,0 +1,8 @@
+SELECT 
+    Id,Name, Active__c, End_Date__c, Start_Date__c,
+    (SELECT 
+        Id, Name, Participant__c, Question_1__c, Question_2__c, Question_3__c,
+        Answer_1__c, Answer_2__c, Answer_3__c, Customer_Survey__c
+    FROM
+         Customer_Survey_Responses__r)
+FROM Survey__c

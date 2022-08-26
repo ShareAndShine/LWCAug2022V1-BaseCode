@@ -1,0 +1,28 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Survey__c",
+                "referenceId": "Survey__cRef1"
+            },
+            "Name": "Project Closure Survey",
+            "Active__c": false
+        },
+        {
+            "attributes": {
+                "type": "Survey__c",
+                "referenceId": "Survey__cRef2"
+            },
+            "Name": "Customer Satisfaction Survey",
+            "Active__c": false
+        },
+        {
+            "attributes": {
+                "type": "Survey__c",
+                "referenceId": "Survey__cRef3"
+            },
+            "Name": "Monthly Service Feedback",
+            "Active__c": false
+        }
+    ]
+}
